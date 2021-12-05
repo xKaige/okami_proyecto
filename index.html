@@ -7,109 +7,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!--FONTS --> 
+   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./style/style.css">
     <title>Okami Indumentaria</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="contenedor">
-            <img src="./img/okamilogo.png" alt="Okami">
+    <header> <!--INICIO HEADER-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container mt-4">
+                <img src="./img/okamilogo.png" class="nav-img" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Productos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Hombre</a></li>
+                      <li><a class="dropdown-item" href="#">Mujer</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Preventas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Contactos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+    </header> <!--FINAL HEADER-->
 
-            <nav class="navegacion">
-                <div class="navegacion__redes">
-                    <ul class="navegacion__redes">
-                        <li><a href="#">Facebook</a></li>
-                        <span></span>
-                        <li><a href="#">Instagram</a></li>
-                        <span></span>
-                        <li><a href="#">Twitter</a></li>
-                    </ul>
-                </div>
-                <div class="navegacion__botonera">
-                    <ul class="navegacion__principal">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="./pages/productos.html">Productos</a></li>
-                        <li><a href="./pages/preventas.html">Preventas</a></li>
-                        <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                        <li><a href="./pages/contactos.html">Contactos</a></li>
-                    </ul>
-                </div>
-        </div>
-        </nav>
-        <hr>
-    </header> <!-- Final Header-->
+    <div class="color-change-2x"></div>
+   <!-- <hr class="hr_nav"> -->
 
     <main>
-        <section class="hero">
-            <div class="hero__box">
-                <div class="hero__txt">
-                    <h1>Neque porro quisquam</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto voluptatibus ex doloribus
-                        consequuntur ut neque?</p>
-                </div>
-            </div>
-        </section> <!-- HeroSelect end-->
 
-        <section class="columnas">
-            <div class="columnas__izquierda">
-                 <img src="./img/imgindex.jpg" alt="img-izq">
-                 <h3>Lorem, ipsum dolor.</h3>
-                 <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quibusdam?</h6>
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint soluta ea molestias, maxime eum tenetur
-                        laboriosam sequi velit ipsum, facilis quam harum? Quo, libero quis!</p>
+      <section> <!--INICIO HERO-->
+        <div class="banner">
+          <div class="container">
+            <div class="banner-text">
+              <div class="banner-heading">
+                Get Jinxed
+              </div>
+              <div class="banner-sub-heading">
+              HeLos sueños de Jinx cobran vida en una secuencia hexplosiva cargada de bombas y balas, y de su manera tan peculiar de divertirse.
+              </div>
+              <button type="button" class="btn text-light btn-banner">Pre-Comprar</button>
             </div>
-            <div class="columnas__mid">
-                  <img src="./img/img-mid.jpeg" alt="Imagen-mid">
-                  <h3>Lorem ipsum dolor sit amet.</h3>
-                  <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, animi.</h6>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum accusantium quis libero vero,
-                        distinctio doloremque quisquam id impedit perferendis quae consequatur maxime natus, perspiciatis
-                        explicabo!</p>
+          </div>
+        </div>
+      </section> <!--FINAL HERO-->
+
+      <div class="color-change-2x"></div>
+
+      <section> <!--INICIO CARTAS -->
+        <div class="card-group">
+          <div class="card">
+            <img src="/img/img_izq.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Kimetsu no Yaiba</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores corporis similique saepe ipsa voluptas minus ducimus dolor exercitationem dicta provident at vitae voluptates asperiores quia nobis natus, accusamus atque quaerat.</p>
             </div>
-            <div class="columnas__derecha">
-                 <img src="./img/img-der.jpg" alt="img-der">
-                 <h3>Lorem, ipsum dolor.</h3>
-                 <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quibusdam?</h6>
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint soluta ea molestias, maxime eum tenetur
-                        laboriosam sequi velit ipsum, facilis quam harum? Quo, libero quis!</p>
+          </div>
+          <div class="card">
+            <img src="/img/img_mid.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold">One Piece</h5>
+              <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eum temporibus libero delectus quos harum?.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="/img/img_dere.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold">Final Fantasy VII</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam optio unde quisquam. Inventore ratione doloremque eligendi voluptas animi laboriosam porro, aliquid a voluptates ex voluptate?</p>
              </div>
-        </section>
-
-        <section class="video">
-             <div class="video__caja">
-             <iframe class="video__caja--medidas" src="https://www.youtube.com/embed/A8CDVkV5pso" title="Moda"  frameborder="0" ></iframe>
-             </div>
-             <div class="video__derecha">
-                    <h4>Lorem ipsum dolor sit amet.</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis itaque iste laborum dolorem veritatis
-                        aperiam quasi cum aliquam debitis nobis laudantium nam, fuga quaerat excepturi.
-                        aperiam quasi cum aliquam debitis nobis laudantium nam, fuga quaerat excepturi
-                        aperiam quasi cum aliquam debitis nobis laudantium nam, fuga quaerat excepturi</p>
+          </div>
+        </div>
+      </section> <!--FINAL CARTAS -->
+      
+      <section> <!--INICIO iframe -->
+        <div class="container contenedor--video">
+          <div class="row">
+            <div class="col-6 gap-3">
+              <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/B5ElvV5cyFg?controls=0" title="YouTube video player" frameborder="0"></iframe>
+              </div>
             </div>
-        </section>
+            <div class="col-6">
+              <h3 class="h3-bold">Placerat eleifend</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at orci vitae tellus tristique efficitur et id nibh. 
 
-    </main> <!-- Secciones -->
+                Sed aliquam, lorem Integer ultrices sed justo non ornare. Vestibulum rhoncus dignissim purus, et dignissim velit feugiat eget. 
+                
+                Morbi at massa pharetra, suscipit nulla in, interdum nisl. Maecenas nec tellus id libero tristique placerat vel quis eros. Aenean sit amet quam at turpis luctus vehicula.Morbi at massa pharetra, suscipit nulla in, interdum nisl. Maecenas nec tellus id libero tristique placerat vel quis eros. Aenean sit amet quam at turpis luctus vehicula. Morbi at massa pharetra, suscipit nulla in, interdum nisl. Maecenas nec tellus id libero tristique placerat vel quis eros. Aenean sit amet quam at turpis luctus vehicula.</p>
+            </div>         
+          </div>
+      </section> <!--FINAL iframe -->
+    </main>
 
- <hr class="hrfooter">
-        <footer>
-            <div class="foot_nav">
-                <ul class="foot__nav__ul">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="./pages/productos.html">Productos</a></li>
-                    <li><a href="./pages/preventas.html">Preventas</a></li>
-                    <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                    <li><a href="./pages/contactos.html">Contactos</a></li>
-                </ul>
-            </div>
-            <div class="foot__p">
-                <p>All images remain property of their original owners. Site & code . Privacy Policy · Terms of Service</p>
-            </div>
-    </footer> <!-- Footer -->
+    <footer class="py-3 my-4 mt-5"> <!--INICIO FOOTER -->
+      <ul class="nav justify-content-center border-bottom mb-3 ul--foot">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Productos</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Preventas</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Nosotros</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contactos</a></li>
+      </ul>
+      <p class="text-center text-muted"> All images remain property of their original owners. Site & code . Privacy Policy · Terms of Service© 2021 Company, Inc</p>
+    </footer> <!--FINAL FOOTER -->
+                        <!--JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
-</div>
-
-</html>
