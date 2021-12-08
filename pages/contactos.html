@@ -5,107 +5,134 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--FONTS -->
     <link
         href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
     <title>Okami Indumentaria</title>
 </head>
 
 <body>
     <header class="header">
-        <div class="contenedor">
-            <img src="../img/okamilogo.png" alt="Okami">
-
-            <nav class="navegacion">
-                <div class="navegacion__redes">
-                    <ul class="navegacion__redes">
-                        <li><a href="#">Facebook</a></li>
-                        <span></span>
-                        <li><a href="#">Instagram</a></li>
-                        <span></span>
-                        <li><a href="#">Twitter</a></li>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container mt-4">
+                <img src="../img/okamilogo.png" class="nav-img" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="./productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="./preventas.html">Preventas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contactos</a>
+                        </li>
                     </ul>
-                </div>
-                <div class="navegacion__botonera">
-                    <ul class="navegacion__principal">
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="../pages/productos.html">Productos</a></li>
-                        <li><a href="../pages/preventas.html">Preventas</a></li>
-                        <li><a href="../pages/nosotros.html">Nosotros</a></li>
-                        <li><a href="#">Contactos</a></li>
-                    </ul>
-                </div>
-        </div>
-        </nav>
-        <hr>
-    </header> <!-- Final Header-->
-
-    <main>
-        <section class="section">
-            <form class="section__form" action="#" method="get" enctype="text/plain">
-                <div class="section__name">
-                    <label for="name">Nombre:</label>
-                    <input type="text" name="nombre" id="name" placeholder="Soy un Nombre">
-                </div>
-                <br>
-                <br>
-                <div class="section__email">
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" id="Email" placeholder="Soy un email">
-                </div>
-                <br>
-                <br>
-                <div class="section__asunto"> 
-                     <label for="asunto">Asunto</label>
-                     <input type="text" name="asunto" id="asunto" placeholder="Soy un asunto re importante">
-                </div>
-                <br>
-                <br>
-                <div  class="section__areatxt">
-                    <label for="comentarios"></label>
-                    <textarea name="txt" id="comentarios" cols="30" rows="10"></textarea>
-                </div>
-                <br>
-                <div  class="section__submit">
-                      <input  id="submit--modif" type="submit" id="Enviar">
-                </div>
-            </form>
-        </section>
-
-        <section class="mapa">
-            <div class="mapa__contenedor">
-                <div class="mapa__izquierda">
-                    <img src="../img/location.jpg" alt="Soy un mapa" width="500px">
-                </div>
-                <div class="mapa__derecha">
-                    <h4>Donde ubicarnos</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at orci vitae tellus tristique efficitur et
-                        id nibh.
-                        Sed aliquam, lorem Integer ultrices sed justo non ornare.
-
-                        estibulum rhoncus dignissim purus, et dignissim velit feugiat eget. Sed aliquam, lorem Integer ultrices
-                        sed justo non ornare. Vestibulum rhoncus dignissim purus, </p>
                 </div>
             </div>
-         </section>
+        </nav>
+        <hr>
+    </header><!-- Final Header-->
 
-    </main> <!-- Final Main-->
-    <hr class="hrfooter">
-    <footer>
-        <div class="foot_nav">
-            <ul class="foot__nav__ul">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../pages/productos.html">Productos</a></li>
-                <li><a href="../pages/preventas.html">Preventas</a></li>
-                <li><a href="../pages/nosotros.html">Nosotros</a></li>
-                <li><a href="#">Contactos</a></li>
-            </ul>
+    <main>
+        <div class="container mb-3">
+            <div class="row">
+                <div class="col">
+                    <h3 class="fw-bold">Contacto</h3>
+                </div>
+            </div>
         </div>
-        <div class="foot__p">
-            <p>All images remain property of their original owners. Site & code . Privacy Policy · Terms of Service</p>
+        <div class="container mb-5">
+            <div class="row flex-nowrap">
+                <div class="col-6 col-xs-12">
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="name" placeholder="Soy un nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Soy un email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="asunto" class="form-label">Asunto</label>
+                            <input type="text" class="form-control" id="asunto"
+                                placeholder="Soy un asunto re importante">
+                        </div>
+                </div>
+                <div class="col-6 col-xs-12">
+                    <div class="form-floating mt-4">
+                        <textarea class="form-control" placeholder="Soy un mensaje muy copado" id="floatingTextarea2"
+                            style="max-height: 200px"></textarea>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" class="btn"></input>
+            </form>
+
         </div>
-    </footer> <!-- Footer -->
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-6">
+                    <img src="../img/location.jpg" alt="" style="width: 100%">
+                </div>
+                <div class="col-6">
+                    <h2 class="fw-bold">Donde ubicarnos</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at orci vitae tellus tristique efficitur
+                        et id nibh.
+                        Sed aliquam, lorem Integer ultrices sed justo non ornare.
+
+                        estibulum rhoncus dignissim purus, et dignissim velit feugiat eget. Sed aliquam, lorem Integer
+                        ultrices sed justo non ornare. Vestibulum rhoncus dignissim purus,</p>
+                </div> 
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <footer class="py-3 my-4 mt-5">
+        <!--INICIO FOOTER -->
+        <ul class="nav justify-content-center border-bottom mb-3 ul--foot">
+            <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="/pages/productos.html" class="nav-link px-2 text-muted">Productos</a></li>
+            <li class="nav-item"><a href="/pages/preventas.html" class="nav-link px-2 text-muted">Preventas</a></li>
+            <li class="nav-item"><a href="/pages/nosotros.html" class="nav-link px-2 text-muted">Nosotros</a></li>
+            <li class="nav-item"><a href="/pages/contactos.html" class="nav-link px-2 text-muted">Contactos</a></li>
+        </ul>
+        <p class="text-center text-muted"> All images remain property of their original owners. Site & code . Privacy
+            Policy · Terms of Service© 2021 Company, Inc</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>

@@ -4,69 +4,189 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!--FONTS --> 
+   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
     <title>Okami Indumentaria</title>
 </head>
 <body>
     <header class="header">
-        <div class="contenedor">
-            <img src="../img/okamilogo.png" alt="Okami">
-
-            <nav class="navegacion">
-                <div class="navegacion__redes">
-                    <ul class="navegacion__redes">
-                        <li><a href="#">Facebook</a></li>
-                        <span></span>
-                        <li><a href="#">Instagram</a></li>
-                        <span></span>
-                        <li><a href="#">Twitter</a></li>
-                    </ul>
-                </div>
-                <div class="navegacion__botonera">
-                    <ul class="navegacion__principal">
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="#">Productos</a></li>
-                        <li><a href="../pages/preventas.html">Preventas</a></li>
-                        <li><a href="../pages/nosotros.html">Nosotros</a></li>
-                        <li><a href="../pages/contactos.html">Contactos</a></li>
-                    </ul>
-                </div>
-        </div>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container mt-4">
+                <img src="../img/okamilogo.png" class="nav-img" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="./preventas.html">Preventas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="./nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="./contactos.html">Contactos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         <hr>
     </header> <!-- Final Header-->
     
     <!-- MAIN -->
-    <main class="productos">
-        <h2>Productos</h2>
-        <div class="productos__contenedor">
-            <div class="productos__contenedor__cajaIzquierda">
-              <a href="./Hombre.html"><img src="../img/productos/manimg.jpg" alt=""></a>
+    <!--Contenedor Principal-->
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="hombres__titulos">
+              <h3 class="fw-bold">Productos</h3>
+              <h6 class="fst-italic fs-5">Remera / Buzo / Campera</h6>
+              <form action="">
+                <div class="form-check form-check-inline pb-5">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2"></label>
+                </div>
+                <input type="reset" class="btn-check" id="btn-check" autocomplete="off">
+                <label class="btn btn-primary" for="btn-check">Reset</label>
+              </form>
+           </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container-fluid">
+        <div class="row mx-5 mb-4">
+            <div class="col-xs-12 col-md-3">
+                <div class="d-flex justify-content-center align-items-center flex-wrap ">
+                  <a href="#"><img src="../img/productos/hombre/h1.jpg" alt=""class="img-fluid"></a>
+                </div>
             </div>
-            <div class="productos__contenedor_cajaDerecha">
-                <a href="#"><img src="../img/productos/girlimg.jpg" alt=""> </a>
+            <div class="col-xs-12 col-md-3">
+              <div class="d-flex justify-content-center align-items-center flex-wrap">
+                <a href="#"><img src="../img/productos/hombre/h2.jpg" alt="" class="img-fluid"></a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-3">
+              <div class="d-flex justify-content-center align-items-center flex-wrap">
+                <a href="#"><img src="../img/productos/hombre/h3.jpg" alt="" class="img-fluid"></a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-3">
+              <div class="d-flex justify-content-center align-items-center flex-wrap">
+                <a href="#"><img src="../img/productos/hombre/h4.jpg" alt="" class="img-fluid"></a>
+              </div>
             </div>
         </div>
+        <div class="row mx-5 mb-4">
+            <div class="col-xs-12 col-md-3">
+                <div class="d-flex justify-content-center align-items-center flex-wrap ">
+                  <a href="#"><img src="../img/productos/hombre/h5.jpg" alt=""class="img-fluid"></a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-3">
+              <div class="d-flex justify-content-center align-items-center flex-wrap">
+                <a href="#"><img src="../img/productos/hombre/h6.jpg" alt="" class="img-fluid"></a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-3">
+              <div class="d-flex justify-content-center align-items-center flex-wrap">
+                <a href="#"><img src="../img/productos/hombre/h7.jpg" alt="" class="img-fluid"></a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-3">
+              <div class="d-flex justify-content-center align-items-center flex-wrap">
+                <a href="#"><img src="../img/productos/hombre/h8.jpg" alt="" class="img-fluid"></a>
+              </div>
+            </div>
+        </div>
+        <div class="row mx-5 mb-4">
+          <div class="col-xs-12 col-md-3">
+              <div class="d-flex justify-content-center align-items-center flex-wrap ">
+                <a href="#"><img src="../img/productos/hombre/h9.jpg" alt=""class="img-fluid"></a>
+              </div>
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <div class="d-flex justify-content-center align-items-center flex-wrap">
+              <a href="#"><img src="../img/productos/hombre/h10.jpg" alt="" class="img-fluid"></a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <div class="d-flex justify-content-center align-items-center flex-wrap">
+              <a href="#"><img src="../img/productos/hombre/h11.jpg" alt="" class="img-fluid"></a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <div class="d-flex justify-content-center align-items-center flex-wrap">
+              <a href="#"><img src="../img/productos/hombre/h12.jpg" alt="" class="img-fluid"></a>
+            </div>
+          </div>
+      </div>
+      <div class="row mx-5 mb-4">
+        <div class="col-xs-12 col-md-3">
+            <div class="d-flex justify-content-center align-items-center flex-wrap ">
+              <a href="#"><img src="../img/productos/hombre/h13.jpg" alt=""class="img-fluid"></a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-3">
+          <div class="d-flex justify-content-center align-items-center flex-wrap">
+            <a href="#"><img src="../img/productos/hombre/h14.jpg" alt="" class="img-fluid"></a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-3">
+          <div class="d-flex justify-content-center align-items-center flex-wrap">
+            <a href="#"><img src="../img/productos/hombre/h15.jpg" alt="" class="img-fluid"></a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-3">
+          <div class="d-flex justify-content-center align-items-center flex-wrap">
+            <a href="#"><img src="../img/productos/hombre/h16.jpg" alt="" class="img-fluid"></a>
+          </div>
+        </div>
+    </div>
+
+
+
+      </div>
     </main>
+<!--Contenedor Principal FINAL-->
 
+    <footer class="py-3 my-4 mt-5"> <!--INICIO FOOTER -->
+      <ul class="nav justify-content-center border-bottom mb-3 ul--foot">
+        <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="/pages/productos.html" class="nav-link px-2 text-muted">Productos</a></li>
+        <li class="nav-item"><a href="/pages/preventas.html" class="nav-link px-2 text-muted">Preventas</a></li>
+        <li class="nav-item"><a href="/pages/nosotros.html" class="nav-link px-2 text-muted">Nosotros</a></li>
+        <li class="nav-item"><a href="/pages/contactos.html" class="nav-link px-2 text-muted">Contactos</a></li>
+      </ul>
+      <p class="text-center text-muted"> All images remain property of their original owners. Site & code . Privacy Policy · Terms of Service© 2021 Company, Inc</p>
+    </footer> <!--FINAL FOOTER --> <!-- Footer -->
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <hr class="hrfooter">
-    <footer>
-        <div class="foot_nav">
-            <ul class="foot__nav__ul">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="../pages/preventas.html">Preventas</a></li>
-                <li><a href="../pages/nosotros.html">Nosotros</a></li>
-                <li><a href="../pages/contactos.html">Contactos</a></li>
-            </ul>
-        </div>
-        <div class="foot__p">
-            <p>All images remain property of their original owners. Site & code . Privacy Policy · Terms of Service</p>
-        </div>
-</footer> <!-- Footer -->
-</body>
+    </body>
 </html>

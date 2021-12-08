@@ -5,90 +5,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!--FONTS --> 
+   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
     <title>Okami Indumentaria</title>
 </head>
 
-<body>
-    <header class="header">
-        <div class="contenedor">
-            <img src="../img/okamilogo.png" alt="Okami">
-
-            <nav class="navegacion">
-                <div class="navegacion__redes">
-                    <ul class="navegacion__redes">
-                        <li><a href="#">Facebook</a></li>
-                        <span></span>
-                        <li><a href="#">Instagram</a></li>
-                        <span></span>
-                        <li><a href="#">Twitter</a></li>
+    <body>
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container mt-4">
+                    <img src="../img/okamilogo.png" class="nav-img" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" aria-current="page" href="../index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" href="./productos.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Preventas</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" href="./nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" href="./contactos.html">Contactos</a>
+                      </li>
                     </ul>
+                  </div>
                 </div>
-                <div class="navegacion__botonera">
-                    <ul class="navegacion__principal">
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="../pages/productos.html">Productos</a></li>
-                        <li><a href="#">Preventas</a></li>
-                        <li><a href="../pages/nosotros.html">Nosotros</a></li>
-                        <li><a href="../pages/contactos.html">Contactos</a></li>
-                    </ul>
-                </div>
-        </div>
-        </nav>
-        <hr>
-    </header> <!-- Final Header-->
-    <!-- MAIN -->
-    <main class="preventa">
-        <h3>Preventas</h3>
-        <h6>Diciembre 2021</h6>
-        <div class="preventa__contenedor">
-            <div class="preventa__contenedor__izquierda">
-                <img src="../img/preventa/nov21.jpg" alt="imagen izquierda">
-                <p>Nov.2021</p>
-            </div>
-            <div class="preventa__contenedor__centro">
-                <img src="../img/preventa/dic21.jpg" alt="imagen centro">
-                <h5 class="centro--titulo">Eva 00</h5>
-                <p class="centro--sub">Diciembre 2021</p>
-            </div>
-            <div class="preventa__contenedor__derecha">
-                <img src="../img/preventa/en22.jpg" alt="imagen derecha">
-                <p class="derecha--sub">Ene.2022</p>
+              </nav>
+            <hr>
+        </header> <!-- Final Header-->
+        <!-- MAIN -->
+<main>
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-xl-4 col-md-8">
+                <h3 class="fw-bold fs-1">Preventa</h3>
+                <h6 class="fst-italic fs-4">Diciembre 2021</h6>
             </div>
         </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-xl-4 col-md-8">
+                <div class="text-center">
+                    <img src="../img/preventa/endpreventa.jpg" class="rounded mx-auto d-block img-fluid" alt="...">
+                    <h3 class="fw-bold mt-3 preventa-color">Final Fantasy XIV ENDWALKER</h3>
+                    <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloribus, ullam, dicta commodi cupiditate corporis quos hic consectetur, eaque dolor fuga asperiores. Culpa, earum obcaecati!</p>
+                  </div
+            </div>
+        </div>
+    </div>
+</main>
 
-            <p class="preventa__texto">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at orci vitae tellus tristique efficitur et
-                id nibh.
-                Sed aliquam, lorem Integer ultrices sed justo non ornare.
-                estibulum rhoncus dignissim purus, et dignissim velit feugiat eget. Sed aliquam, lorem Integer ultrices
-                sed justo non ornare. Vestibulum rhoncus dignissim purus, et dignissim velit feugiat eget.
-                Morbi at massa pharetra, suscipit nulla in, interdum nisl. Maecenas nec tellus id libero tristique
-                placerat vel quis eros. Aenean sit amet quam at turpis luctus vehicula.Sed aliquam, lorem Integer
-                ultrices sed justo non ornare. Vestibulum rhoncus dignissim purus, et dignissim velit feugiat eget.
-                Sed aliquam, lorem Integer ultrices sed justo non ornare. Vestibulum rhoncus dignissim purus, et
-                dignissim velit feugiaSed aliquam, lorem Integer ultrices sed justo
-            </p>
-    </main>
-
-    <hr class="hrfooter">
-    <footer>
-        <div class="foot_nav">
-            <ul class="foot__nav__ul">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../pages/productos.html">Productos</a></li>
-                <li><a href="#">Preventas</a></li>
-                <li><a href="../pages/nosotros.html">Nosotros</a></li>
-                <li><a href="../pages/contactos.html">Contactos</a></li>
+        <footer class="py-3 my-4 mt-5"> <!--INICIO FOOTER -->
+            <ul class="nav justify-content-center border-bottom mb-3 ul--foot">
+              <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Home</a></li>
+              <li class="nav-item"><a href="/pages/productos.html" class="nav-link px-2 text-muted">Productos</a></li>
+              <li class="nav-item"><a href="/pages/preventas.html" class="nav-link px-2 text-muted">Preventas</a></li>
+              <li class="nav-item"><a href="/pages/nosotros.html" class="nav-link px-2 text-muted">Nosotros</a></li>
+              <li class="nav-item"><a href="/pages/contactos.html" class="nav-link px-2 text-muted">Contactos</a></li>
             </ul>
-        </div>
-        <div class="foot__p">
-            <p>All images remain property of their original owners. Site & code . Privacy Policy · Terms of Service</p>
-        </div>
-    </footer> <!-- Footer -->
-</body>
-
+            <p class="text-center text-muted"> All images remain property of their original owners. Site & code . Privacy Policy · Terms of Service© 2021 Company, Inc</p>
+          </footer> <!--FINAL FOOTER --> <!-- Footer -->
+               <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      
+    </body>
 </html>

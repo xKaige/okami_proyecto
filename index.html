@@ -15,7 +15,7 @@
    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap" rel="stylesheet">
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
     <title>Okami Indumentaria</title>
 </head>
 
@@ -32,23 +32,17 @@
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                     Productos
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Hombre</a></li>
-                      <li><a class="dropdown-item" href="#">Mujer</a></li>
-                    </ul>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="/pages/productos.html">Productos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Preventas</a>
+                    <a class="nav-link text-dark" href="/pages/preventas.html">Preventas</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Nosotros</a>
+                    <a class="nav-link text-dark" href="/pages/nosotros.html">Nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Contactos</a>
+                    <a class="nav-link text-dark" href="/pages/contactos.html">Contactos</a>
                   </li>
                 </ul>
               </div>
@@ -67,12 +61,12 @@
           <div class="container">
             <div class="banner-text">
               <div class="banner-heading">
-                Get Jinxed
+                  <span class="color-change-p">Get Jinxed</span> 
               </div>
               <div class="banner-sub-heading">
-              HeLos sueños de Jinx cobran vida en una secuencia hexplosiva cargada de bombas y balas, y de su manera tan peculiar de divertirse.
+              Los sueños de Jinx cobran vida en una secuencia hexplosiva cargada de bombas y balas, y de su manera tan peculiar de divertirse.
               </div>
-              <button type="button" class="btn text-light btn-banner">Pre-Comprar</button>
+              <button type="button" class="btn text-light btn-banner"><a href=""></a>Pre-Comprar</button>
             </div>
           </div>
         </div>
@@ -81,31 +75,82 @@
       <div class="color-change-2x"></div>
 
       <section> <!--INICIO CARTAS -->
-        <div class="card-group">
-          <div class="card">
-            <img src="/img/img_izq.png" class="card-img-top" alt="...">
+        <div class="card-group ">
+          <div class="card shadow ">
+            <img src="./img/img_izq.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Kimetsu no Yaiba</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores corporis similique saepe ipsa voluptas minus ducimus dolor exercitationem dicta provident at vitae voluptates asperiores quia nobis natus, accusamus atque quaerat.</p>
             </div>
           </div>
-          <div class="card">
-            <img src="/img/img_mid.png" class="card-img-top" alt="...">
+          <div class="card shadow ">
+            <img src="./img/img_mid.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title font-weight-bold">One Piece</h5>
               <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eum temporibus libero delectus quos harum?.</p>
             </div>
           </div>
-          <div class="card">
-            <img src="/img/img_dere.png" class="card-img-top" alt="...">
+          <div class="card shadow ">
+            <img src="./img/endwalker.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title font-weight-bold">Final Fantasy VII</h5>
+              <h5 class="card-title font-weight-bold">Final Fantasy XIV - ENDWALKER</h5>
               <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam optio unde quisquam. Inventore ratione doloremque eligendi voluptas animi laboriosam porro, aliquid a voluptates ex voluptate?</p>
              </div>
           </div>
         </div>
       </section> <!--FINAL CARTAS -->
-      
+      <hr class="idea_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center nuestro-proceso">
+            <h2 class="fw-bold fs-2">NUESTRO PROCESO DE CREACIÓN</h2>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <div class="container-fluid">
+          <div class="row align-items-center row-margin">
+            <div class="col">
+              <img src="/img/pensando.svg">
+              <figure class="text-center">
+                <blockquote class="blockquote">
+                  <p>Idear.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Pensar y proyectar lo que se busca
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <img src="/img/working.svg">
+              <figure class="text-center">
+                <blockquote class="blockquote">
+                  <p>Diseñar y Producir.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Diseñar y Producir el producto!
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <img src="/img/venta.svg">
+              <figure class="text-center">
+                <blockquote class="blockquote">
+                  <p>Vender!!</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Vender al publico
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
       <section> <!--INICIO iframe -->
         <div class="container contenedor--video">
           <div class="row">
@@ -115,27 +160,30 @@
               </div>
             </div>
             <div class="col-6">
-              <h3 class="h3-bold">Placerat eleifend</h3>
+              <h3 class="h3-bold">Spot Publicitario</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at orci vitae tellus tristique efficitur et id nibh. 
-
-                Sed aliquam, lorem Integer ultrices sed justo non ornare. Vestibulum rhoncus dignissim purus, et dignissim velit feugiat eget. 
-                
-                Morbi at massa pharetra, suscipit nulla in, interdum nisl. Maecenas nec tellus id libero tristique placerat vel quis eros. Aenean sit amet quam at turpis luctus vehicula.Morbi at massa pharetra, suscipit nulla in, interdum nisl. Maecenas nec tellus id libero tristique placerat vel quis eros. Aenean sit amet quam at turpis luctus vehicula. Morbi at massa pharetra, suscipit nulla in, interdum nisl. Maecenas nec tellus id libero tristique placerat vel quis eros. Aenean sit amet quam at turpis luctus vehicula.</p>
+                Sed aliquam, lorem Integer ultrices sed justo non ornare. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>         
           </div>
       </section> <!--FINAL iframe -->
+
+
+
     </main>
 
     <footer class="py-3 my-4 mt-5"> <!--INICIO FOOTER -->
       <ul class="nav justify-content-center border-bottom mb-3 ul--foot">
         <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Productos</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Preventas</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Nosotros</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contactos</a></li>
+        <li class="nav-item"><a href="/pages/productos.html" class="nav-link px-2 text-muted">Productos</a></li>
+        <li class="nav-item"><a href="/pages/preventas.html" class="nav-link px-2 text-muted">Preventas</a></li>
+        <li class="nav-item"><a href="/pages/nosotros.html" class="nav-link px-2 text-muted">Nosotros</a></li>
+        <li class="nav-item"><a href="/pages/contactos.html" class="nav-link px-2 text-muted">Contactos</a></li>
       </ul>
       <p class="text-center text-muted"> All images remain property of their original owners. Site & code . Privacy Policy · Terms of Service© 2021 Company, Inc</p>
     </footer> <!--FINAL FOOTER -->
                         <!--JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+
+  </body>
+
+</html> 
