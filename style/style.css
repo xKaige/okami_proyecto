@@ -316,3 +316,37 @@ nav a:hover {
 .form-control {
   width: 100%;
 }
+
+
+@media screen and (max-width: 768px){
+  .row-margin {
+    margin-bottom: 2rem;
+    flex-direction: column;
+  }
+  .banner{
+    background-position: right;
+    background-size: cover;
+    height: 65vh;
+  }
+  .banner-text {
+    padding: 0;
+  }
+  .banner-heading{
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 6rem;
+    margin-bottom: 2rem;
+    color: #E76F51;
+    text-transform: uppercase;
+    font-family: 'Heebo', sans-serif;
+    padding-top: 15rem;
+  }
+  .banner-sub-heading {
+    line-height: 2rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .img-nosotros{
+    width: 100%;
+  }
+}
