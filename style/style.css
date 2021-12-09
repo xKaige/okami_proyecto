@@ -332,21 +332,29 @@ nav a:hover {
     padding: 0;
   }
   .banner-heading{
-    font-size: 5rem;
+    font-size: 2rem;
     font-weight: 700;
-    line-height: 6rem;
-    margin-bottom: 2rem;
+    line-height: 4rem;
+    margin-bottom: 0;
     color: #E76F51;
     text-transform: uppercase;
     font-family: 'Heebo', sans-serif;
-    padding-top: 15rem;
+    padding-top: 200px;
   }
   .banner-sub-heading {
     line-height: 2rem;
     margin-top: 5px;
     margin-bottom: 10px;
+    font-size: 1rem;
   }
   .img-nosotros{
     width: 100%;
+  }
+  .card-group{
+    margin: 200px 20px;
+  }
+  .iframe-footer{
+    flex-direction: column;
+    align-content: space-around;
   }
 }
