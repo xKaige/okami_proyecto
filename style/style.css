@@ -358,3 +358,9 @@ nav a:hover {
     align-content: space-around;
   }
 }
+
+@media screen and (max-width: 1440px){
+  .banner-sub-heading {
+    line-height: 30px;
+    margin-bottom: 25px;
+}
