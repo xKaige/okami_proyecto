@@ -362,5 +362,6 @@ nav a:hover {
 @media screen and (max-width: 1440px){
   .banner-sub-heading {
     line-height: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 25px; 
+  }
 }
