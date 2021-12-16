@@ -52,3 +52,12 @@
       color: #ee5938; }
     100% {
       color: #fd0bfd; } }
+
+  .productos_img img {
+    filter: grayscale(100);
+    transition: 1s;
+
+      &:hover {
+        filter: grayscale(0);
+      }
+  }
