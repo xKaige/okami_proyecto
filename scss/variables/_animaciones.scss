@@ -1,0 +1,54 @@
+.color-change-2x {
+    width: 100%;
+    height: 20px;
+    -webkit-animation: color-change-2x 2s linear infinite alternate both;
+    animation: color-change-2x 2s linear infinite alternate both; }
+  
+  @-webkit-keyframes color-change-2x {
+    0% {
+      background: #ec7f66; }
+    100% {
+      background: #f53003; } }
+  
+  @keyframes color-change-2x {
+    0% {
+      background: #ec7f66; }
+    100% {
+      background: #f53003; } }
+  
+      .color-change-2x2 {
+        width: 100%;
+        height: 20px;
+        -webkit-animation: color-change-2x2 2s linear infinite alternate both;
+        animation: color-change-2x2 2s linear infinite alternate both; }
+      
+      @-webkit-keyframes color-change-2x2 {
+        0% {
+          background: #ff086f; }
+        100% {
+          background: #ca017d; } }
+      
+      @keyframes color-change-2x2 {
+        0% {
+          background: #ff086f; }
+        100% {
+          background: #ca017d; } }
+  
+  /* FONDO JINXED*/
+  .color-change-p {
+    width: 100%;
+    height: 20px;
+    -webkit-animation: color-change-p 2s linear infinite alternate both;
+    animation: color-change-p 2s linear infinite alternate both; }
+  
+  @-webkit-keyframes color-change-p {
+    0% {
+      color: #ee5938; }
+    100% {
+      color: #fd0bfd; } }
+  
+  @keyframes color-change-p {
+    0% {
+      color: #ee5938; }
+    100% {
+      color: #fd0bfd; } }

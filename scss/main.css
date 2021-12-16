@@ -1,3 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 .navbar {
   padding-bottom: 1.5rem;
   background-color: #e2e2e2;
@@ -70,5 +82,362 @@ nav a:hover {
 
 .nav-img {
   width: 23vh;
+}
+
+.color-change-2x {
+  width: 100%;
+  height: 20px;
+  -webkit-animation: color-change-2x 2s linear infinite alternate both;
+  animation: color-change-2x 2s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #ec7f66;
+  }
+  100% {
+    background: #f53003;
+  }
+}
+
+@keyframes color-change-2x {
+  0% {
+    background: #ec7f66;
+  }
+  100% {
+    background: #f53003;
+  }
+}
+
+.color-change-2x2 {
+  width: 100%;
+  height: 20px;
+  -webkit-animation: color-change-2x2 2s linear infinite alternate both;
+  animation: color-change-2x2 2s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-2x2 {
+  0% {
+    background: #ff086f;
+  }
+  100% {
+    background: #ca017d;
+  }
+}
+
+@keyframes color-change-2x2 {
+  0% {
+    background: #ff086f;
+  }
+  100% {
+    background: #ca017d;
+  }
+}
+
+/* FONDO JINXED*/
+.color-change-p {
+  width: 100%;
+  height: 20px;
+  -webkit-animation: color-change-p 2s linear infinite alternate both;
+  animation: color-change-p 2s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-p {
+  0% {
+    color: #ee5938;
+  }
+  100% {
+    color: #fd0bfd;
+  }
+}
+
+@keyframes color-change-p {
+  0% {
+    color: #ee5938;
+  }
+  100% {
+    color: #fd0bfd;
+  }
+}
+
+.banner {
+  background-image: url("../img/hjinx.jpg");
+  color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.banner-preventa {
+  background-image: url("../img/preventa/bannerpreventa.jpg");
+  color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  height: 90vh;
+}
+
+.banner-text {
+  padding: 200px 0 500px 0;
+}
+
+.banner-heading {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 100px;
+  margin-bottom: 30px;
+  color: #ED6A4C;
+  text-transform: uppercase;
+  font-family: 'Heebo', sans-serif;
+  padding-top: 15rem;
+}
+
+.banner-sub-heading {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.btn-banner {
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.banner-sub-heading {
+  line-height: 2.1em;
+  margin-bottom: 25px;
+}
+
+.btn {
+  background-color: #ED6A4C;
+  border: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: #ce3813;
+  border: none;
+  color: white;
+}
+
+.card-group {
+  gap: 20px;
+  margin: 200px 100px;
+}
+
+.card {
+  padding-bottom: 50px;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.card-text {
+  font-style: italic;
+  padding-top: 15px;
+}
+
+.arcane__izquierda {
+  width: 100%;
+}
+
+.arcane__derecha {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.arcane__parrafo__principal {
+  font-size: 1.5rem;
+  color: #ffff;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.arcane_parrafo__inferior1, .arcane_parrafo__inferior2 {
+  font-size: 1rem;
+  color: #ffff;
+  text-align: justify;
+}
+
+.arcane_boton {
+  background-color: #b5318b;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffff;
+  margin-top: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.arcane_boton:hover {
+  background-color: #b1067b;
+}
+
+.arcane_boton a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.preventa-fondo {
+  background: #080a09;
+  background: linear-gradient(356deg, #080a09 0%, #0e100e 100%);
+  height: 100%;
+}
+
+.titulo-preventa {
+  font-family: 'JUSTICE LEAGUE', sans-serif;
+  color: #b5318b;
+  font-size: 7rem;
+}
+
+.h6-preventa {
+  font-size: 3rem;
+  color: #ffff;
+}
+
+@media screen and (max-width: 768px) {
+  .row-margin {
+    margin-bottom: 2rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .banner {
+    background-position: right;
+    background-size: cover;
+    height: 65vh;
+  }
+  .banner-text {
+    padding: 0;
+  }
+  .banner-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 4rem;
+    margin-bottom: 0;
+    color: #E76F51;
+    text-transform: uppercase;
+    font-family: 'Heebo', sans-serif;
+    padding-top: 200px;
+  }
+  .banner-sub-heading {
+    line-height: 2rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  .img-nosotros {
+    width: 100%;
+  }
+  .card-group {
+    margin: 200px 20px;
+  }
+  .iframe-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .banner-sub-heading {
+    line-height: 30px;
+    margin-bottom: 25px;
+  }
+}
+
+.h3-bold {
+  font-size: 2.3rem;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.contenedor--video {
+  margin-bottom: 100px;
+  margin-top: 15rem;
+}
+
+.row-margin {
+  margin-bottom: 2rem;
+}
+
+.container-background {
+  background-color: #ffb8a6;
+  padding: 2rem;
+}
+
+.blockquote-footer {
+  color: #42494d;
+  font-weight: 700;
+}
+
+blockquote {
+  font-weight: 800;
+}
+
+.nuestro-proceso h2 {
+  color: #ee5938;
+  margin-bottom: 2rem;
+}
+
+.gray-trans {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.a-gray img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+  background-color: #ce3813;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn-check:active + .btn-primary, .btn-check:checked + .btn-primary, .btn-primary.active, .btn-primary:active, .show > .btn-primary.dropdown-toggle {
+  background-color: #fd0bfd;
+}
+
+.form-check-input:checked {
+  background-color: #ED6A4C;
+  border-color: #ED6A4C;
+}
+
+.form-check-input:focus {
+  border-color: #f7ae9e;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.preventa-color {
+  color: #ED6A4C;
 }
 /*# sourceMappingURL=main.css.map */

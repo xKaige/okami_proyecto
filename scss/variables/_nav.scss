@@ -1,4 +1,4 @@
-
+@import "./var";
 
 .navbar {
     padding-bottom: 1.5rem;
@@ -11,14 +11,14 @@
     background-size: 0% 1px; 
     transition: background-size 1s;
     background-position: 0% 100%;
-    color: #ED6A4C;
+    color: $color;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
     text-transform: capitalize;
     font-size: 1.1rem; }
   
   nav a:hover {
-    color: #ED6A4C !important; }
+    color: $color !important; }
   
   .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
     color: #E76F51; }

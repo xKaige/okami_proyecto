@@ -1,0 +1,57 @@
+.arcane__izquierda {
+    width: 100%;
+  }
+  
+  .arcane__derecha {
+    width: 100%;
+    margin-top: 80px;
+  }
+  .arcane__parrafo__principal {
+    font-size: 1.5rem;
+    color: #ffff;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+  .arcane_parrafo__inferior1, .arcane_parrafo__inferior2 {
+    font-size: 1rem;
+    color: #ffff;
+    text-align: justify;
+  }
+  
+  .arcane_boton {
+    background-color: #b5318b;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffff;
+    margin-top: 50px;
+    transition: 0.5s;
+  }
+  
+  .arcane_boton:hover {
+    background-color: #b1067b;
+  }
+  
+  .arcane_boton a {
+    text-decoration: none;
+    color: #ffff;
+  }
+  
+  
+
+.preventa-fondo{
+    background: rgb(8,10,9);
+    background: linear-gradient(356deg, rgba(8,10,9,1) 0%, rgba(14,16,14,1) 100%);
+    height: 100%;
+  }
+  
+  .titulo-preventa {
+    font-family: 'JUSTICE LEAGUE', sans-serif;
+    color: #b5318b;
+    font-size: 7rem;
+  }
+  .h6-preventa{
+    font-size: 3rem;
+    color: #ffff;
+  }
