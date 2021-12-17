@@ -21,11 +21,11 @@
     color: $color !important; }
   
   .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
-    color: #E76F51; }
+    color: $color; }
 
   .dropdown-menu a:hover {
     background-color: #919191;
-    color: white;
+    color: $color-blanco;
     transition: 0.5s; }
   
   .dropdown-menu {
@@ -34,7 +34,7 @@
   
     .dropdown-menu a:hover {
         background-color: #919191;
-        color: white;
+        color: $color-blanco;
         transition: 0.5s; }
       
       .dropdown-menu {
@@ -50,7 +50,7 @@
             font-weight: 600; }
           
           .li a:hover {
-            color: #E76F51;
+            color: $color;
             background-size: 100% 2px;
             transition: 0.2s; }
           

@@ -36,12 +36,12 @@ nav a:hover {
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
-  color: #E76F51;
+  color: #ED6A4C;
 }
 
 .dropdown-menu a:hover {
   background-color: #919191;
-  color: white;
+  color: #fff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -53,7 +53,7 @@ nav a:hover {
 
 .dropdown-menu a:hover {
   background-color: #919191;
-  color: white;
+  color: #fff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -74,7 +74,7 @@ nav a:hover {
 }
 
 .li a:hover {
-  color: #E76F51;
+  color: #ED6A4C;
   background-size: 100% 2px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -93,7 +93,7 @@ nav a:hover {
 
 @-webkit-keyframes color-change-2x {
   0% {
-    background: #ec7f66;
+    background: #ED6A4C;
   }
   100% {
     background: #f53003;
@@ -102,7 +102,7 @@ nav a:hover {
 
 @keyframes color-change-2x {
   0% {
-    background: #ec7f66;
+    background: #ED6A4C;
   }
   100% {
     background: #f53003;
@@ -144,7 +144,7 @@ nav a:hover {
 
 @-webkit-keyframes color-change-p {
   0% {
-    color: #ee5938;
+    color: #ED6A4C;
   }
   100% {
     color: #fd0bfd;
@@ -153,7 +153,7 @@ nav a:hover {
 
 @keyframes color-change-p {
   0% {
-    color: #ee5938;
+    color: #ED6A4C;
   }
   100% {
     color: #fd0bfd;
@@ -240,7 +240,7 @@ nav a:hover {
 .btn:hover {
   background-color: #ce3813;
   border: none;
-  color: white;
+  color: #fff;
 }
 
 .card-group {
@@ -272,14 +272,14 @@ nav a:hover {
 
 .arcane__parrafo__principal {
   font-size: 1.5rem;
-  color: #ffff;
+  color: #fff;
   text-align: justify;
   text-justify: inter-word;
 }
 
 .arcane_parrafo__inferior1, .arcane_parrafo__inferior2 {
   font-size: 1rem;
-  color: #ffff;
+  color: #fff;
   text-align: justify;
 }
 
@@ -288,7 +288,7 @@ nav a:hover {
   border: none;
   padding: 10px;
   border-radius: 5px;
-  color: #ffff;
+  color: #fff;
   margin-top: 50px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -300,7 +300,7 @@ nav a:hover {
 
 .arcane_boton a {
   text-decoration: none;
-  color: #ffff;
+  color: #fff;
 }
 
 .preventa-fondo {
@@ -317,7 +317,7 @@ nav a:hover {
 
 .h6-preventa {
   font-size: 3rem;
-  color: #ffff;
+  color: #fff;
 }
 
 @media screen and (max-width: 768px) {
@@ -341,7 +341,7 @@ nav a:hover {
     font-weight: 700;
     line-height: 4rem;
     margin-bottom: 0;
-    color: #E76F51;
+    color: #ED6A4C;
     text-transform: uppercase;
     font-family: 'Heebo', sans-serif;
     padding-top: 200px;
@@ -366,12 +366,39 @@ nav a:hover {
     -ms-flex-line-pack: distribute;
         align-content: space-around;
   }
+  .titulo-preventa {
+    font-size: 3rem;
+  }
 }
 
 @media screen and (max-width: 1440px) {
   .banner-sub-heading {
     line-height: 30px;
     margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .banner-preventa {
+    background-image: url("../../img/preventa/mpreventa.png");
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 66vh;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .banner-preventa {
+    background-image: url("../../img/preventa/smpreventa.png");
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 90vh;
   }
 }
 
@@ -405,7 +432,7 @@ blockquote {
 }
 
 .nuestro-proceso h2 {
-  color: #ee5938;
+  color: #ED6A4C;
   margin-bottom: 2rem;
 }
 

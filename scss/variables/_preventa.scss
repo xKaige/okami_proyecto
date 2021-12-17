@@ -1,3 +1,5 @@
+@import "../../font/JUSTICE\ LEAGUE.ttf";
+
 .arcane__izquierda {
     width: 100%;
   }
@@ -8,14 +10,14 @@
   }
   .arcane__parrafo__principal {
     font-size: 1.5rem;
-    color: #ffff;
+    color: $color-blanco;
     text-align: justify;
     text-justify: inter-word;
   }
   
   .arcane_parrafo__inferior1, .arcane_parrafo__inferior2 {
     font-size: 1rem;
-    color: #ffff;
+    color: $color-blanco;
     text-align: justify;
   }
   
@@ -24,7 +26,7 @@
     border: none;
     padding: 10px;
     border-radius: 5px;
-    color: #ffff;
+    color: $color-blanco;
     margin-top: 50px;
     transition: 0.5s;
   }
@@ -35,7 +37,7 @@
   
   .arcane_boton a {
     text-decoration: none;
-    color: #ffff;
+    color: $color-blanco;
   }
   
   
@@ -53,5 +55,5 @@
   }
   .h6-preventa{
     font-size: 3rem;
-    color: #ffff;
+    color: $color-blanco;
   }

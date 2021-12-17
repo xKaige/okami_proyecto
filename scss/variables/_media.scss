@@ -13,7 +13,7 @@
       font-weight: 700;
       line-height: 4rem;
       margin-bottom: 0;
-      color: #E76F51;
+      color: $color;
       text-transform: uppercase;
       font-family: 'Heebo', sans-serif;
       padding-top: 200px; }
@@ -28,12 +28,39 @@
       margin: 200px 20px; }
     .iframe-footer {
       flex-direction: column;
-      align-content: space-around; } }
+      align-content: space-around; } 
+    .titulo-preventa {
+      font-size: 3rem;}
+}
   
   @media screen and (max-width: 1440px) {
     .banner-sub-heading {
       line-height: 30px;
-      margin-bottom: 25px; } }
+      margin-bottom: 25px; } 
+    }
   
+  @media screen and (max-width: 1024px) {
+    .banner-preventa {
+      background-image: url("../../img/preventa/mpreventa.png");
+      color: $color-blanco;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: cover;
+      height: 66vh; 
+    }
+  }
   
+  @media screen and (max-width: 425px){
+    .banner-preventa {
+      background-image: url("../../img/preventa/smpreventa.png");
+      color: #fff;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: cover;
+      height: 90vh; 
+    }
+  }
+
   

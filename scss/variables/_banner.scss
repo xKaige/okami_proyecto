@@ -2,7 +2,7 @@
 
 .banner {
     background-image: url("../img/hjinx.jpg");
-    color: #fff;
+    color: $color-blanco;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -11,7 +11,7 @@
   
   .banner-preventa {
     background-image: url("../img/preventa/bannerpreventa.jpg");
-    color: #fff;
+    color: $color-blanco;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -37,7 +37,7 @@
     font-weight: 300;
     line-height: 30px;
     margin-bottom: 50px;
-    color: #fff; }
+    color: $color-blanco; }
   
   .btn-banner {
     padding: 5px 20px;
@@ -45,7 +45,7 @@
     font-weight: 700;
     line-height: 1.5;
     text-align: center;
-    color: #fff;
+    color: $color-blanco;
     text-transform: uppercase; }
   
   .banner-sub-heading {
@@ -60,4 +60,4 @@
   .btn:hover {
     background-color: #ce3813;
     border: none;
-    color: white; }
+    color: $color-blanco; }

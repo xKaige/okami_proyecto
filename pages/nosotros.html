@@ -18,7 +18,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="../scss/main.css">
+        <link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="../scss/main.css">
     <link rel="stylesheet" type="text/css" href="../style/style.css">
     <title>Okami Indumentaria</title>
 </head>
@@ -61,58 +62,79 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h3 class="fw-bold">Nosotros</h3>
+                    <h3 class="fw-bold animate__animated animate__slideInLeft">Nosotros</h3>
                 </div>
             </div>
         </div>
         <div class="container mb-5">
             <div class="row">
-                <div class="col-md-6">
-                    <img src="../img/nosotros2.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-md-6">
-                    <img src="../img/nosotros1.jpg" class="img-fluid" alt="">
+                <div class="col-ms-8">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../img/nos1.png" class="d-block w-100" alt="">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../img/nos2.png" class="d-block w-100" alt="">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../img/nos3.png" class="d-block w-100" alt="">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
                 </div>
             </div>
-            </div>
+        </div>
         <div class="container my-5">
             <div class="row">
                 <div class="col">
-                    <h3 class="fw-bold">Rhoncus dignissim purus</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at orci vitae tellus tristique
-                        efficitur et id nibh.
-                        Sed aliquam, lorem Integer ultrices sed justo non ornare.
+                    <h3 class="fw-bold">About our work</h3>
+                    <p>Our work encompasses graphics and identity, products and packaging, exhibitions and
+                        installations, websites and digital experiences, advertising and communications, sound and
+                        motion. Our 23 partners are all practicing designers, and whether working collaboratively or
+                        independently, they do so in friendship.
 
-                        estibulum rhoncus dignissim purus, et dignissim velit feugiat eget. Sed aliquam, lorem Integer
-                        ultrices sed justo non ornare. Vestibulum rhoncus dignissim purus, et dignissim velit feugiat
-                        eget.
-
-                        Morbi at massa pharetra, suscipit nulla in, interdum nisl. Maecenas nec tellus id libero
-                        tristique placerat vel quis eros. Aenean sit amet quam at turpis luctus vehicula. ed aliquam,
-                        lorem Integer ultrices sed justo non ornare. Vestibulum rhoncus dignissim purus, et dignissim
-                        velit feugiat eget.
-
-                        Sed aliquam, lorem Integer ultrices sed justo non ornare. Vestibulum rhoncus dignissim purus, et
-                        dignissim velit feugiaSed aliquam, lorem Integer ultrices sed justo </p>
+                        Our structure is unique. We are the only major design studio where the owners of the business
+                        are the creators of the work and serve as the primary contact for every client. This reflects
+                        our conviction that great design cannot happen without passion, intelligence and — above all —
+                        personal commitment, and is demonstrated by a portfolio that spans five decades, many
+                        industries, and clients of every size. </p>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="row justify-content-evenly">
-                <div class="col-lg-3">
+            <div class="row justify-content-around">
+                <div class="col-lg-3 col-sm-6">
                     <img src="../img/fund1.png" class="img-fluid" alt="...">
-                    <h3 class="text-center mt-5 fw-bold">Rhoncus dignissim puru</h3>
-                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at orci vitae tellus tristique
-                        efficitur et id nibh.
-                        Sed aliquam, lorem Integer ultrices sed justo non ornare.
+                    <h3 class="text-center mt-5 fw-bold">Michael Bierut</h3>
+                    <p class="text-center"> Studied graphic design at the University of Cincinnati’s College of Design,
+                        Architecture, Art and Planning, graduating summa cum laude in 1980. He worked for ten years at
+                        Vignelli Associates before joining Pentagram as a partner in 1990.
+
+                        His clients at Pentagram have included The New York Times, Saks Fifth Avenue, The Robin Hood
+                        Foundation, MIT Media Lab, Mastercard, Bobby Flay Bold Foods, Princeton University, the New York
+                        Jets, the Brooklyn Academy of Music, and Playwrights Horizons. As a volunteer to Hillary
+                        Clinton’s communications team, he designed the H logo that was ubiquitous throughout her 2016
+                        presidential campaign.
                     </p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-6">
                     <img src="../img/fund2.png" class="img-fluid" alt="...">
-                    <h3 class="text-center mt-5 fw-bold">Integer ultrices</h3>
-                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at orci vitae tellus tristique efficitur et id nibh. 
-                        Sed aliquam, lorem Integer ultrices sed justo non ornare. 
-                        estibulum rhoncus dignissim purus, et dignissim velit feugiat eget. Sed aliquam, lorem Integer ultrices sed
+                    <h3 class="text-center mt-5 fw-bold">Natasha Jen</h3>
+                    <p class="text-center">Natasha Jen was born in Taipei, Taiwan and studied graphic design at the
+                        School of Visual Arts in New York City, where she received her BFA with Honors in 2002. She has
+                        worked at Base Design as a senior designer on fashion and brand identity projects, at 2×4, Inc.
+                        as an art director leading large-scale branding, exhibition, environmental and editorial
+                        projects, and at Stone Yamashita Partners as creative director. In July 2010, she established
+                        her own studio, Njenworks. She joined Pentagram’s New York office as partner in April 2012.
                     </p>
                 </div>
             </div>

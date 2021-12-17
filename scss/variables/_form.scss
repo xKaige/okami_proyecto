@@ -22,7 +22,7 @@
     font-weight: 800; }
   
   .nuestro-proceso h2 {
-    color: #ee5938;
+    color: $color;
     margin-bottom: 2rem; }
   
   .gray-trans {
@@ -42,8 +42,8 @@
     background-color: #fd0bfd; }
   
   .form-check-input:checked {
-    background-color: #ED6A4C;
-    border-color: #ED6A4C; }
+    background-color: $color;
+    border-color: $color; }
   
   .form-check-input:focus {
     border-color: #f7ae9e;
@@ -53,4 +53,4 @@
       width: 100%; }
   
   .preventa-color {
-    color: #ED6A4C; }
+    color: $color; }

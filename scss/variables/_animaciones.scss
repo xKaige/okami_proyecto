@@ -6,13 +6,13 @@
   
   @-webkit-keyframes color-change-2x {
     0% {
-      background: #ec7f66; }
+      background: $color; }
     100% {
       background: #f53003; } }
   
   @keyframes color-change-2x {
     0% {
-      background: #ec7f66; }
+      background: $color; }
     100% {
       background: #f53003; } }
   
@@ -43,13 +43,13 @@
   
   @-webkit-keyframes color-change-p {
     0% {
-      color: #ee5938; }
+      color: $color; }
     100% {
       color: #fd0bfd; } }
   
   @keyframes color-change-p {
     0% {
-      color: #ee5938; }
+      color: $color; }
     100% {
       color: #fd0bfd; } }
 
