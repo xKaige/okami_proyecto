@@ -1,13 +1,15 @@
 .card-group {
     gap: 20px;
-    margin: 200px 100px; }
+    margin: 200px 100px;
+    .card {
+      padding-bottom: 50px; }
+    
+    &-title {
+      font-weight: 700; }
+    
+    &-text {
+      font-style: italic;
+      padding-top: 15px; }
   
-  .card {
-    padding-bottom: 50px; }
+  }
   
-  .card-title {
-    font-weight: 700; }
-  
-  .card-text {
-    font-style: italic;
-    padding-top: 15px; }

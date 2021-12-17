@@ -15,7 +15,7 @@ body {
   background-color: #e2e2e2;
 }
 
-nav a {
+.navbar a {
   text-decoration: none;
   background-image: -webkit-gradient(linear, left top, left bottom, from(currentColor), to(currentColor));
   background-image: linear-gradient(currentColor, currentColor);
@@ -31,7 +31,7 @@ nav a {
   font-size: 1.1rem;
 }
 
-nav a:hover {
+.navbar a:hover {
   color: #ED6A4C !important;
 }
 
@@ -51,13 +51,6 @@ nav a:hover {
   text-align: right;
 }
 
-.dropdown-menu a:hover {
-  background-color: #919191;
-  color: #fff;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
 .dropdown-menu {
   min-width: 100%;
   text-align: right;
@@ -73,7 +66,14 @@ nav a:hover {
   font-weight: 600;
 }
 
-.li a:hover {
+.dropdown-menu a a:hover {
+  background-color: #919191;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.dropdown-menu ali a:hover {
   color: #ED6A4C;
   background-size: 100% 2px;
   -webkit-transition: 0.2s;
@@ -248,15 +248,15 @@ nav a:hover {
   margin: 200px 100px;
 }
 
-.card {
+.card-group .card {
   padding-bottom: 50px;
 }
 
-.card-title {
+.card-group-title {
   font-weight: 700;
 }
 
-.card-text {
+.card-group-text {
   font-style: italic;
   padding-top: 15px;
 }

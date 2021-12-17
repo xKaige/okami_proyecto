@@ -2,9 +2,9 @@
 
 .navbar {
     padding-bottom: 1.5rem;
-    background-color: #e2e2e2; }
+    background-color: #e2e2e2;
   
-  nav a {
+  & a {
     text-decoration: none;
     background-image: linear-gradient(currentColor, currentColor);
     background-repeat: no-repeat;
@@ -15,10 +15,13 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
     text-transform: capitalize;
-    font-size: 1.1rem; }
-  
-  nav a:hover {
-    color: $color !important; }
+    font-size: 1.1rem; 
+    
+    &:hover {
+      color: $color !important; }
+
+  }
+}
   
   .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
     color: $color; }
@@ -32,10 +35,7 @@
     min-width: 100%;
     text-align: right; }
   
-    .dropdown-menu a:hover {
-        background-color: #919191;
-        color: $color-blanco;
-        transition: 0.5s; }
+
       
       .dropdown-menu {
         min-width: 100%;
@@ -47,12 +47,19 @@
           
           .dropdown-menu a {
             font-size: 1rem;
-            font-weight: 600; }
+            font-weight: 600; 
+            & a:hover {
+              background-color: #919191;
+              color: $color-blanco;
+              transition: 0.5s; }
+              &li a:hover {
+                color: $color;
+                background-size: 100% 2px;
+                transition: 0.2s; }
+            
+            }
           
-          .li a:hover {
-            color: $color;
-            background-size: 100% 2px;
-            transition: 0.2s; }
+
           
           .nav-img {
             width: 23vh; }
