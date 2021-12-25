@@ -1,13 +1,12 @@
 
 
 .arcane__izquierda {
-    width: 100%;
+    @include width-img(100%);
   }
   
-  .arcane__derecha {
-    width: 100%;
-    margin-top: 80px;
-  }
+.arcane-caja {
+  @include sizes(100%, 80px);
+}
   .arcane__parrafo__principal {
     font-size: 1.5rem;
     color: $color-blanco;
@@ -54,6 +53,6 @@
     font-size: 7rem;
   }
   .h6-preventa{
-    font-size: 3rem;
-    color: $color-blanco;
+    font-size: map-get($map: $titular--estilosBlanco, $key: tamaño);
+    color: map-get($map: $titular--estilosBlanco, $key: color );
   }

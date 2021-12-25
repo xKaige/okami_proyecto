@@ -1,3 +1,18 @@
+/* Extend*/
+.titulares, .h3-bold {
+  color: #ED6A4C;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.banner-estilo, .banner, .banner-preventa {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* Mixins */
 * {
   padding: 0;
   margin: 0;
@@ -10,6 +25,21 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* Extend*/
+.titulares, .h3-bold {
+  color: #ED6A4C;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.banner-estilo, .banner, .banner-preventa {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* Mixins */
 .navbar {
   padding-bottom: 1.5rem;
   background-color: #e2e2e2;
@@ -172,23 +202,30 @@ body {
           filter: grayscale(0);
 }
 
-.banner {
-  background-image: url("../img/hjinx.jpg");
-  color: #fff;
+/* Extend*/
+.titulares, .h3-bold {
+  color: #ED6A4C;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.banner-estilo, .banner, .banner-preventa {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+}
+
+/* Mixins */
+.banner {
+  background-image: url("../img/hjinx.jpg");
+  color: #fff;
   height: 100vh;
 }
 
 .banner-preventa {
   background-image: url("../img/preventa/bannerpreventa.jpg");
   color: #fff;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
   height: 90vh;
 }
 
@@ -265,7 +302,7 @@ body {
   width: 100%;
 }
 
-.arcane__derecha {
+.arcane-caja {
   width: 100%;
   margin-top: 80px;
 }
@@ -403,7 +440,6 @@ body {
 }
 
 .h3-bold {
-  font-size: 2.3rem;
   font-weight: 800;
   padding-bottom: 20px;
 }

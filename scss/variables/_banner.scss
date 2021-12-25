@@ -2,20 +2,14 @@
 
 .banner {
     background-image: url("../img/hjinx.jpg");
+    @extend .banner-estilo;
     color: $color-blanco;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
     height: 100vh; }
   
   .banner-preventa {
     background-image: url("../img/preventa/bannerpreventa.jpg");
     color: $color-blanco;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
+    @extend .banner-estilo;
     height: 90vh; 
   }
   
