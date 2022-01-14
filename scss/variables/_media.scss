@@ -31,6 +31,9 @@
       align-content: space-around; } 
     .titulo-preventa {
       font-size: 3rem;}
+      iframe {
+        height: 50vh;
+      }
 }
   
   @media screen and (max-width: 1440px) {
@@ -61,6 +64,5 @@
       background-size: cover;
       height: 90vh; 
     }
-  }
 
-  
+  }
