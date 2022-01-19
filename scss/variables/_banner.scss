@@ -14,7 +14,13 @@
   }
   
   .banner-text {
-    padding: 200px 0 500px 0; }
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    height: 80vh;
+    justify-content: flex-end;
+  }
   
   .banner-heading {
     font-size: 5rem;
@@ -23,8 +29,7 @@
     margin-bottom: 30px;
     color: $color;
     text-transform: uppercase;
-    font-family: 'Heebo', sans-serif;
-    padding-top: 15rem; }
+    font-family: 'Heebo', sans-serif; }
   
   .banner-sub-heading {
     font-size: 30px;

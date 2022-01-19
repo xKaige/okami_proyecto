@@ -230,7 +230,22 @@ body {
 }
 
 .banner-text {
-  padding: 200px 0 500px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  height: 80vh;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .banner-heading {
@@ -241,7 +256,6 @@ body {
   color: #ED6A4C;
   text-transform: uppercase;
   font-family: 'Heebo', sans-serif;
-  padding-top: 15rem;
 }
 
 .banner-sub-heading {
@@ -366,6 +380,16 @@ iframe {
   color: #fff;
 }
 
+.btn-talles {
+  background-color: #ED6A4C;
+  font-size: 2rem;
+}
+
+.btn-talles:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 @media screen and (max-width: 768px) {
   .row-margin {
     margin-bottom: 2rem;
@@ -381,6 +405,7 @@ iframe {
   }
   .banner-text {
     padding: 0;
+    height: 50vh;
   }
   .banner-heading {
     font-size: 2rem;
@@ -448,6 +473,10 @@ iframe {
     background-position: center center;
     background-size: cover;
     height: 90vh;
+  }
+  .banner-text {
+    padding: 0;
+    height: 60vh;
   }
 }
 

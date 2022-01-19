@@ -56,3 +56,12 @@
     font-size: map-get($map: $titular--estilosBlanco, $key: tamaño);
     color: map-get($map: $titular--estilosBlanco, $key: color );
   }
+
+  .btn-talles{
+    background-color: $color;
+    font-size: 2rem;
+  }
+
+  .btn-talles:focus{
+    box-shadow: none;
+  }
