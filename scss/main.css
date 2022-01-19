@@ -390,6 +390,34 @@ iframe {
           box-shadow: none;
 }
 
+.cajas-colores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.cajas-colores .caja1 {
+  width: 60px;
+  height: 60px;
+  background-color: #000;
+  color: transparent;
+}
+
+.cajas-colores .caja2 {
+  width: 60px;
+  height: 60px;
+  background-color: gray;
+  color: transparent;
+}
+
+.cajas-colores .caja3 {
+  width: 60px;
+  height: 60px;
+  background-color: #ff3c00;
+  color: transparent;
+}
+
 @media screen and (max-width: 768px) {
   .row-margin {
     margin-bottom: 2rem;
